@@ -1,4 +1,4 @@
-# ETS_Pemrograman_Web
+# ETS Pemrograman Web
 
 Repositori untuk ETS Pemrograman Web A 2022-23
 
