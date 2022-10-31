@@ -15,7 +15,7 @@ body {
     color: #198fff;
     padding: 0 10%;
 }
-input[type=text] {
+input[type=text], [type=password] {
     margin: 1vh 5vw 5vh;
     width: 85%;
     border-radius: 3vh;
