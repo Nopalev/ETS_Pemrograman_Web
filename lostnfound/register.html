@@ -19,6 +19,37 @@
       href="https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu:wght@300;400&display=swap"
       rel="stylesheet"
     />
+    <script type="text/javascript" src="jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery/jquery.validate.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+			  $('#frm-rgs').validate({
+          rules:{
+            Email:{
+              email:true
+            },
+            PasswordValidation:{
+              equalTo:"#Password"
+            }
+          },
+          messages:{
+              Name:{
+                required:"Kolom nama harus diisi"
+              },
+              Email:{
+                required:"Kolom email harus diisi"
+              },
+              Password:{
+                required:"Kolom Password harus diisi"
+              },
+              PasswordValidation: {
+                required:"Kolom isi Password harus diisi sama",
+                equalTo: "Password tidak sama"
+              }
+            }
+        })
+      })
+    </script>
   </head>
 
   <body>
@@ -28,19 +59,19 @@
     <div class="Wrapper">
       <div class="box">
         <p class="FormHeaderText">Daftar</p>
-        <form name="Regis" action="/lostnfound/login.html">
+        <form name="Regis" action="/lostnfound/login.html" id="frm-rgs">
           <label for="Name" class="FormText"> Username: </label>
-          <input type="text" id="Name" name="Name" />
+          <input type="text" id="Name" name="Name" class="required" />
           <br />
-          <label for="E-mail" class="FormText"> E-mail: </label>
-          <input type="text" id="E-mail" name="E-mail" />
+          <label for="Email" class="FormText"> E-mail: </label>
+          <input type="text" id="Email" name="Email" class="required" />
           <br />
           <label for="Password" class="FormText"> Password: </label>
-          <input type="password" id="Password" name="Password" />
+          <input type="password" id="Password" name="Password" class="required"/>
           
           <br />
           <label for="PasswordValidation" class="FormText"> Ketik ulang password: </label>
-          <input type="password" id="PasswordValidation" name="PasswordValidation" onkeyup='check();'/>
+          <input type="password" id="PasswordValidation" name="PasswordValidation" class="required"/>
           <input
             type="submit"
             class="SubmitButton"
