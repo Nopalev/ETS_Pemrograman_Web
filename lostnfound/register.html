@@ -40,7 +40,7 @@
           
           <br />
           <label for="PasswordValidation" class="FormText"> Ketik ulang password: </label>
-          <input type="password" id="PasswordValidation" name="PasswordValidation" />
+          <input type="password" id="PasswordValidation" name="PasswordValidation" onkeyup='check();'/>
           <input
             type="submit"
             class="SubmitButton"
@@ -48,6 +48,9 @@
             onclick="return validateForm()"
           />
         </form>
+        <a href="/lostnfound/login.html" class="Redirect">
+          Sudah memiliki akun? Masuk disini
+        </a>
       </div>
     </div>
     <footer class="FooterText">Created for ETS Pemrograman Web</footer>
