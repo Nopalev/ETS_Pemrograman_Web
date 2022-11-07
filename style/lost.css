@@ -1,0 +1,139 @@
+/* Tag Selector */
+
+body, tr, td {
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family:  Helvetica, sans-serif;
+}
+
+p {
+    margin-bottom: 0;
+    font-family:  Helvetica, sans-serif;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+li {
+    font-family:  Helvetica, sans-serif;
+}
+
+a {
+    font-family:  Helvetica, sans-serif;
+}
+
+hr {
+    border-top: 8px dashed #4e6d82;
+    border-bottom: 8px dashed #2d2942;
+    width: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    opacity: 0.6;
+}
+
+/* Class Selector */
+
+.header h1 {
+    font-size: 40px;
+    display: inline-block;
+    color: #4e6d82;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.account-button {
+    float: right;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 15px 20px 0px 0px;
+    font-size: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #4e6d82;
+    font-weight: bold;
+}
+
+.page-title {
+    color: whitesmoke;
+    background-color: #4e6d82;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.news-box {
+    background-color: #4e6d82;
+    position: relative;
+    margin: 20px 30px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 900px;
+    color: whitesmoke;
+}
+
+.news-box img {
+    border-radius: 10px;
+}
+.news-topic {
+    position: absolute;
+    display: inline;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.news-title {
+    position: absolute;
+    display: inline;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.news-desc {
+    position: absolute;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 15px;
+    margin-top: 80px;
+    text-align: justify;
+}
+
+.news-detail {
+    position: absolute;
+    display: inline;
+    margin-left: 20px;
+    margin-top: 140px;
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+.news-detail:hover {
+    position: absolute;
+    display: inline;
+    margin-left: 20px;
+    margin-top: 140px;
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+.footer {
+    position: relative;
+    background-color: #2d2942;
+}
+
+.footer p {
+    color: whitesmoke;
+    padding: 10px;
+    font-size: medium;
+    margin-left: 20px;
+}
+
+/* Id Selector */

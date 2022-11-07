@@ -1,0 +1,274 @@
+/* Tag Selector */
+
+body, tr, td {
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family:  Helvetica, sans-serif;
+}
+
+p {
+    margin-bottom: 0;
+    font-family:  Helvetica, sans-serif;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+li {
+    font-family:  Helvetica, sans-serif;
+}
+
+a {
+    font-family:  Helvetica, sans-serif;
+}
+
+hr {
+    border-top: 8px dashed #4e6d82;
+    border-bottom: 8px dashed #2d2942;
+    width: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    opacity: 0.6;
+}
+
+/* Class Selector */
+
+.header h1 {
+    font-size: 40px;
+    display: inline-block;
+    color: #4e6d82;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.content-list ul {
+    margin-left: 100px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.content-list li {
+    margin-right: 30px;
+    float: left;
+}
+
+.content-list a {
+    text-decoration: none;
+    color: #665f62;
+    padding: 20px;
+}
+
+.content-list a:hover {
+    text-decoration: underline;
+    color: black;
+    padding: 20px;
+}
+
+.account-button {
+    float: right;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 15px 20px 0px 0px;
+    font-size: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #4e6d82;
+    font-weight: bold;
+}
+
+/* Body */
+
+.section-1 {
+    background-image: linear-gradient(to bottom right, #2d2942, #4e6d82);
+    height: 500px;
+}
+
+.pic-1 {
+    width: 50%;
+    height: 500px;
+    filter: sepia(45%);
+    object-fit: cover;
+    object-position: 100% 100%;
+    border-radius: 90px 0px 0px 90px;
+    right: 0;
+    position: absolute;
+}
+
+.textbox-1-1 {
+    margin-left: 20px;
+    margin-right: 60%;
+    padding-top: 90px;
+    padding-left: 20px;
+}
+
+.textbox-1-1 h1 {
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.textbox-1-1 p {
+    text-align: justify;
+    color: whitesmoke;
+    font-size: large;
+}
+
+.textbox-1-1 a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 40px 20px 0px 0px;
+    font-size: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #4e6d82;
+    font-weight: bold;
+}
+
+.section-2 {
+    text-align: center;
+}
+
+.section-2 h2, .section-2 h3, .section-2 p {
+    color: #4e6d82;
+}
+
+.section-2 h1 {
+    background-color: #4e6d82;
+    display: inline-block;
+    color: whitesmoke;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+.section-2 div {
+    display: inline-block;
+}
+
+.section-2 img {
+    width: 80%;
+    height: 300px;
+    filter: sepia(45%);
+    object-fit: cover;
+    object-position: 55% 100%;
+    border-radius: 90px 90px 90px 90px;
+    margin: 30px 0px;
+}
+
+.section-2 a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 25px;
+    font-size: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #4e6d82;
+    font-weight: bold;
+}
+
+.section-3 iframe {
+    margin-left: 5%;
+}
+
+.textbox-3-1 {
+    margin-top: 3%;
+    margin-right: 10%;
+    float: right;
+    width: 600px;
+}
+
+.textbox-3-1 h1 {
+    background-color: #4e6d82;
+    display: inline-block;
+    color: whitesmoke;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.textbox-3-1 p {
+    color: #4e6d82;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.section-4 {
+    text-align: center;
+}
+
+.section-4 h1 {
+    background-color: #4e6d82;
+    display: inline-block;
+    color: whitesmoke;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.section-4 h3, .section-4 p {
+    color: #4e6d82;
+}
+
+.review-box {
+    display: inline-block;
+    width: 600px;
+    margin-top: 70px;
+}
+
+.review-box img {
+    width: 50px;
+    margin-right: 40px;
+}
+
+.review {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.review p {
+    text-align: justify;
+}
+
+.section-5 {
+    margin-bottom: 80px;
+}
+
+.textbox-5-1 {
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    color: #4e6d82;
+    padding: 10px;
+    margin-left: 5%;
+    width: 34%;
+}
+
+.textbox-5-2 {
+    font-size: 15px;
+    display: inline-block;
+    color: #4e6d82;
+    padding: 10px;
+    margin-left: 5%;
+    width: 34%;
+}
+
+.footer {
+    position: relative;
+    background-color: #2d2942;
+}
+
+.footer p {
+    color: whitesmoke;
+    padding: 10px;
+    font-size: medium;
+    margin-left: 20px;
+}
+
+/* Id Selector */

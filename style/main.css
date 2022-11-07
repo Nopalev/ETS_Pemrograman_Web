@@ -50,7 +50,7 @@ pre {
 .FormHeaderText{
     font-size: 30px;
     font-weight: bold;
-    margin: 0 2vw 2vw 6vw;
+    margin: 0 1vw 2vw 5vw;
     position: inherit;
     color: #198fff;
 }
@@ -101,3 +101,20 @@ pre {
         font-size: large;
     }
 }
+
+.topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .topnav a.active {
+    background-color: #198fff;
+    color: white;
+  }
