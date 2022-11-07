@@ -1,5 +1,5 @@
 {
   "redirects": [
-    { "source": "/", "destination": "/lostnfound" }
+    { "source": "/", "destination": "/lostnfound/index.html" }
   ]
 }
