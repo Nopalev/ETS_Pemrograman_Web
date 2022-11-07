@@ -1,0 +1,119 @@
+* { 
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box;
+    position: relative;
+}
+header {
+    display: flex;
+    margin-top: 3vh;
+    align-items: center;
+}
+body {
+    font-family:  Helvetica, sans-serif;
+    color: #4e6d82;;
+    padding: 0 10%;
+}
+input[type=text], [type=password] {
+    margin: 1vh 5vw 5vh;
+    width: 85%;
+    border-radius: 3vh;
+    padding: 12px 20px;
+    resize: vertical;
+    background: #759fbb;
+    border: none;
+    border-bottom: 2px solid #172c3a;
+}
+footer {
+    margin: 1vh;
+}
+ul {
+    margin-left: 20px;
+}
+pre {
+    font-family:  Helvetica, sans-serif;
+}
+.HeaderText{
+    font-size: 36px;
+    font-weight: bold;
+    position: inherit;
+    color: #4e6d82;
+}
+.FooterText{
+    position: inherit;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    color: #4e6d82;
+}
+.FormHeaderText{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 1vw 2vw 5vw;
+    position: inherit;
+    color: #4e6d82;
+}
+.Wrapper{
+    min-height: 80vh;
+}
+.box {
+    border: 1vh solid #4e6d82;;
+    border-radius: 5vh;
+    margin: 2vw;
+    padding: 2vw;
+}
+.FormText{
+    padding: 5vw;
+    font-size: x-large;
+}
+.Redirect{
+    margin-left: 5vw;
+    font-size: large;
+}
+.Bold{
+    font-weight: bold;
+}
+.SubmitButton{
+    border: none;
+    color: #a4deff;
+    background-color: #4e6d82;
+    margin: 1vh 5vw 5vh;
+    padding: 1vw 5vw;
+    width: 85%;
+    resize: vertical;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 7vw;
+}
+@media only screen and (max-width: 768px){
+    .HeaderText{
+        font-size: 24px;
+        font-weight: medium;
+    }
+    .FormHeaderText{
+        font-size: 20px;
+        font-weight: medium;
+    }
+    .FormText{
+        font-size: large;
+    }
+}
+
+.topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .topnav a.active {
+    background-color: #4e6d82;
+    color: white;
+  }

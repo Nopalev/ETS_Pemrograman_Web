@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta
+      charset="utf-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="stylesheet" type="text/css" href="/style/form.css" />
+    <title>Laporkan Penemuan Barang Hilang</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/src/favicon.ico" />
+  </head>
+
+  <body>
+    <header>
+      <p class="HeaderText">Lost and Found</p>
+    </header>
+    <div class="Wrapper">
+      <div class="box">
+        <p class="FormHeaderText">Laporkan barang hilang</p>
+        <p class="FormHeaderText" style="font-size: 20px; margin-bottom: 40px;">Anda menemukan barang milik orang lain? Laporkan dengan mengisi form ini.</p>
+        <form name="Found" action="/lostnfound/index.html">
+          <label for="Name" class="FormText"> Nama Barang: </label>
+          <input type="text" id="Name" name="Name" />
+          <br />
+          <label for="Detail" class="FormText"> Detail: </label>
+          <input type="text" id="Detail" name="Detail" />
+          <label for="Foto" class="FormText"> Foto Barang: </label> <br>
+          <input type="file" id="File" name="File" style="margin: 2vw 1vw 4vw 5vw;"> <br>
+          <label for="Contact" class="FormText"> Kontak untuk dihubungi oleh pemilik (Nomor): </label>
+          <input type="text" id="Contact" name="Contact" />
+          <input
+            type="submit"
+            class="SubmitButton"
+            value="Laporkan!"
+          />
+        </form>
+      </div>
+    </div>
+    <footer class="FooterText">Created for ETS Pemrograman Web</footer>
+  </body>
+</html>

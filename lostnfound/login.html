@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta
+      charset="utf-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="stylesheet" type="text/css" href="/style/form.css" />
+    <title>Masuk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/src/favicon.ico" />
+  </head>
+
+  <body>
+    <header>
+      <p class="HeaderText">Lost and Found</p>
+    </header>
+    <div class="Wrapper">
+      <div class="box">
+        <p class="FormHeaderText">Masuk</p>
+        <form name="Regis" action="/lostnfound/index.html">
+          <label for="Name" class="FormText"> Username: </label>
+          <input type="text" id="Name" name="Name" />
+          <br />
+          <label for="Password" class="FormText"> Password: </label>
+          <input type="password" id="Password" name="Password" />
+          <input
+            type="submit"
+            class="SubmitButton"
+            value="Masuk"
+          />
+        </form>
+        <a href="/lostnfound/register.html" class="Redirect">
+            Belum mendaftar? daftar disini
+        </a>
+      </div>
+    </div>
+    <footer class="FooterText">Created for ETS Pemrograman Web</footer>
+  </body>
+</html>
